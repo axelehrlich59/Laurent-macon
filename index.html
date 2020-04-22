@@ -35,13 +35,79 @@
 		</header>
 		<!-- div for layout lg screen -->
 		<div  class="col-lg-9">
-			<div class="div d-flex justify-content-center align-items-center">				
-				<img class="div-img img-responsive w-100"  src="https://recognitionworks.org/wp-content/uploads/2016/04/background5-1-1400x400.jpg" alt="">
-				<div class="div-h1_div-img">
-					<h1>Laurent Maçon</h1>
-					<h3>Carellage,clôture,terasse,etc...</h3>
+				<!-- div for background img & title -->
+				<div class="div d-flex justify-content-center align-items-center">				
+					<img class="div-img img-responsive w-100"  src="https://recognitionworks.org/wp-content/uploads/2016/04/background5-1-1400x400.jpg" alt="">
+						<div class="div-h1_div-img">
+							<h1>Laurent Maçon</h1>
+							<h3>Carellage,clôture,terasse,etc...</h3>
+						</div>
+				</div>	
+			
+			<!-- Confiance page  -->
+
+			<div class="div">
+				<div class="div-h3 d-flex justify-content-center mt-3 mb-3">
+					<h3>Confiance</h3>
 				</div>
+						<div class="div-logo d-flex justify-content-around">
+								<i class="i-div-logo fas fa-adjust"></i>
+								<i class="i-div-logo fas fa-adjust"></i>
+								<i class="i-div-logo fas fa-adjust"></i>
+						</div>
+
+							<div class="div-logo-argument d-flex justify-content-around">
+								<p>Argument 1</p>
+								<p>Argument 2</p>
+								<p>Argument 3</p>
+							</div>
 			</div>			
+
+
+				<!-- Slider js -->	
+				<!-- Slideshow container -->
+		<div class="slideshow-container  d-flex justify-content-center">
+
+			<!-- Full-width images with number and caption text -->
+		  <div class="mySlides fade d-flex justify-content-center">
+							<div class="numbertext">1 / 3</div>
+							<img src="https://picsum.photos/200/300">
+							<div class="text">Caption Text</div>
+							</div>
+						
+							<div class="mySlides fade">
+							<div class="numbertext">2 / 3</div>
+							<img src="https://picsum.photos/200/300">
+							<div class="text">Caption Two</div>
+							</div>
+						
+							<div class="mySlides fade">
+							<div class="numbertext">3 / 3</div>
+							<img src="https://picsum.photos/200/300">
+							<div class="text">Caption Three</div>
+		  </div>
+		
+			<!-- Next and previous buttons -->
+					<div class="slideshow-container_mySlides-fade_a justify-content-between">
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+					</div>	
+	</div>
+
+		<br>
+		
+		<!-- The dots/circles -->
+		<div class="d-flex justify-content-center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+			
+
+
+
+
+	
 
 			<!-- main content of page -->
 			<main>				
@@ -50,11 +116,14 @@
 			<footer>
 				<p>Copyright</p>
 			</footer>
-		</div>
+ </div>
 
 		<!-- Script Bootstrap-->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ 		<script src="slider.js"></script>
+
+	
 	</body>
 </html>
