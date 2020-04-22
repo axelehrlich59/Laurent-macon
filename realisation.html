@@ -15,8 +15,8 @@
 	<!-- add row class for layout lg screen -->
 	<body class="row m-0">
 		<!-- header with nav -->
-		<header class="header col-lg-3 p-0 bg-light">
-			<nav class="header_nav d-flex flex-lg-column flex-sm-row navbar navbar-expand-md navbar-light">
+		<header class="header col-lg-3 p-0">
+			<nav class="header_nav d-flex flex-lg-column flex-sm-row navbar navbar-expand-md navbar-light bg-light">
 				<img class="header_nav_img" src="assets/img/logo.png" alt="" srcset="">
 				<button class="header_nav_button navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -39,7 +39,7 @@
 			<!-- main content of page -->
 			<main>	
                 <section class="container">
-
+                  <div class="container">
                     <h1 class="font-weight-light mt-4 mb-0 text-center">Réalisation</h1>
                   
                     <hr class="mt-2 mb-5">
@@ -107,6 +107,8 @@
                             </a>
                       </div>
                     </div>
+                  </div>
+                    
                   
                 </section>
             </main>
@@ -121,9 +123,11 @@
 	
 
 			<!-- footer with link of social network/copirygh etc.. -->
-			<footer>
+			<footer class="text-center">
 				<p>Copyright</p>
-			</footer>
+      </footer>
+      			<!-- arrow for mobile and tablet, go to the top of page -->
+			<a href="#top"><i class="fas fa-arrow-alt-circle-up"></i></a>
  </div>
 
 		<!-- Script Bootstrap -->

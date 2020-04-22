@@ -13,10 +13,10 @@
 		<title>Laurent Maçon</title>
 	</head>
 	<!-- add row class for layout lg screen -->
-	<body class="row m-0 bg-dark">
+	<body class="row m-0">
 		<!-- header with nav -->
-		<header class="header col-lg-3 p-0 bg-light">
-			<nav class="header_nav d-flex flex-lg-column flex-sm-row navbar navbar-expand-md navbar-light">
+		<header class="header col-lg-3 p-0">
+			<nav class="header_nav d-flex flex-lg-column flex-sm-row navbar navbar-expand-md navbar-light bg-light">
 				<img class="header_nav_img" src="assets/img/logo.png" alt="" srcset="">
 				<button class="header_nav_button navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
@@ -38,6 +38,22 @@
 		<div  class="col-lg-9 p-0">
 			<!-- main content of page -->
 			<main>	
+                <section class="container">
+                    <h1 class="font-weight-light text-center mt-4 mb-0">Presentation</h1>
+                    <hr class="mt-2 mb-5">
+                    <div class="container">
+                        <h2>Laurent Maçon</h2>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae similique velit, doloremque error architecto cumque necessitatibus magnam, quaerat dignissimos, eos excepturi incidunt voluptatibus veritatis est unde qui sunt commodi. Obcaecati.</p>
+                    </div>
+                </section>
+                <br>
+                <section class="container text-center mt-2">
+                    <h2>Besoin d'un devis ?</h2>
+                    <hr>
+                    <br>
+                    <button><a href="contact.html">Contacter nous</a></button>
+                </section>
             </main>
 		
 				
@@ -50,9 +66,11 @@
 	
 
 			<!-- footer with link of social network/copirygh etc.. -->
-			<footer>
+			<footer class="text-center">
 				<p>Copyright</p>
-			</footer>
+            </footer>
+            			<!-- arrow for mobile and tablet, go to the top of page -->
+			<a href="#top"><i class="fas fa-arrow-alt-circle-up"></i></a>
  </div>
 
 		<!-- Script Bootstrap -->
