@@ -29,4 +29,10 @@
         height: 80%;
         font-size: 1.3rem; } }
 
+.main_section_div-row_div-col--coordoner {
+  margin-top: 60px; }
+  @media (min-width: 992px) {
+    .main_section_div-row_div-col--coordoner {
+      margin-top: 0; } }
+
 /*# sourceMappingURL=style.css.map */

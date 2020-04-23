@@ -1,0 +1,11 @@
+//import media queries
+@import '../abstract/media';
+
+
+.main_section_div-row_div-col--coordoner{
+    margin-top: 60px;
+
+    @include lg {
+    margin-top:0;
+    }
+}
