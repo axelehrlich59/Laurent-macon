@@ -1,9 +1,11 @@
 //import media queries
 @import '../abstract/media';
-
+@import '../abstract/colors';
 //header with nav for all page
 .header{
-	//default
+	//default	
+	background-color: $black-anthra;
+	//text-decoration: none;
 	@include xs{
 		.header_nav{
 			overflow: auto;
@@ -14,6 +16,25 @@
 			margin: auto;
 		}
 		.header_nav_div_ul{
+			a{
+				color : $white-cream;
+				text-decoration: none;
+				&::before {
+				  
+					content: '';
+					width: 0;
+					height: 3px;
+					bottom: 0;
+					left: 0;
+					background: $orange-terracotta;
+					position: absolute;
+					transition: all 400ms;
+					-webkit-transition: all 400ms;
+				}
+				&:hover::before{
+					width: 100%;
+				}
+			}
 			text-align: center;
 			display: flex;
 			height: 50vh;
