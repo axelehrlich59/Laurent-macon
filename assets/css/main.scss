@@ -6,6 +6,7 @@
 @import 'layout/header';
 //pages
 @import 'pages/contact';
-@import 'pages/background';
+//components
+@import 'components/backdrop';
 //themes
-@import 'components/realisation.scss';
+@import 'themes/background';
