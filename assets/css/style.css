@@ -38,7 +38,7 @@
 .backdrop {
   z-index: 1000;
   background-color: white;
-  opacity: 0.95;
+  opacity: 0.98;
   transform: translateZ(0px);
   position: fixed;
   top: 0;
@@ -54,11 +54,11 @@
   float: left; }
 
 .main_div--home-top-page {
-  background-color: #201e1f;
+  background-image: url("https://storage.needpix.com/rsynced_images/plywood-background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
-  color: rgba(178, 64, 56, 0.808); }
+  color: #b14138; }
 
 /*# sourceMappingURL=style.css.map */
