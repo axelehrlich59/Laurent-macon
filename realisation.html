@@ -116,7 +116,7 @@
 		
 				  <div class="backdrop" id="backdrop">
               <div class="backdrop-cross-container align-self-start">
-                    <i class="cross fas fa-times" id="close" onclick="unDisplay()"></i>
+                    <i class="cross fas fa-times" id="close" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;"></i>
               </div>
           </div>
 			

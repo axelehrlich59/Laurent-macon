@@ -17,7 +17,9 @@ $(document).ready(function(){
    var close = document.getElementById("close");
    var backdrop = document.getElementById("backdrop");
    if(backdrop.style.display === "flex") {
-    backdrop.style.display = "none";
+    this.parentNode.parentNode.parentNode
+    .removeChild(this.parentNode.parentNode);
+    return false;
    }
   };
 
