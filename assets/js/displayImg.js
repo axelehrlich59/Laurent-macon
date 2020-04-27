@@ -4,16 +4,19 @@ $(document).ready(function(){
         var image = $(this);
         var backdrop = $(".backdrop");
         var url = image.attr('src');
-      var display=  image.clone().appendTo(".backdrop");
-      if(display) {
-          backdrop.css({"display":"flex" ,"justify-content":"center", "align-items":"center"});
-      }
-    
+        $('#displayImg').attr('src',url);
+        backdrop.show();
+        
+})
+$('#close').click(function(e){
+    e.preventDefault()
+    $(".backdrop").hide();
 })
 })
 
 
-    function unDisplay() {
+
+    /*function unDisplay() {
    var close = document.getElementById("close");
    var backdrop = document.getElementById("backdrop");
    if(backdrop.style.display === "flex") {
@@ -21,7 +24,7 @@ $(document).ready(function(){
     .removeChild(this.parentNode.parentNode);
     return false;
    }
-  };
+  };*/
 
 
 
