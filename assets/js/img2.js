@@ -2,9 +2,18 @@ $(document).ready(function(){
     $(img).click(function(){
         console.log($(this))
         var image = $(this);
-      // var back = ;
+        var backdrop = $(".backdrop");
         var url = image.attr('src');
-        window.open(url,'Image','width=1000  ,height= 500,resizable=1');
-    })
+      var display=  image.appendTo(".backdrop");
+      if(display) {
+          backdrop.css("display", "block");
+      }
+
+        
+     
 })
+})
+
+
+
 
