@@ -37,7 +37,8 @@
 
 .backdrop {
   z-index: 1000;
-  background-color: black;
+  background-color: white;
+  opacity: 0.5;
   transform: translateZ(0px);
   position: fixed;
   top: 0;
