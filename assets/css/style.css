@@ -47,20 +47,18 @@
   left: 0;
   display: none; }
 
-<<<<<<< HEAD
+.fas {
+  font-size: 45px;
+  color: black;
+  cursor: pointer;
+  float: left; }
+
 .main_div--home-top-page {
   background-color: #201e1f;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  width: 100%;
   height: 100vh;
   color: rgba(178, 64, 56, 0.808); }
-=======
-.fas {
-  font-size: 45px;
-  color: black;
-  cursor: pointer; }
->>>>>>> 1cb82e6bc6d56183ad8f8774fcaa18e2b3afe6e4
 
 /*# sourceMappingURL=style.css.map */

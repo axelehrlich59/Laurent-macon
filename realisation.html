@@ -10,7 +10,6 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
 		<!-- link custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/pages/realisation.css">
 		<title>Laurent Maçon</title>
 	</head>
 	<!-- add row class for layout lg screen -->
@@ -114,10 +113,16 @@
                 </section>
             </main>
 		
-				  <div class="backdrop" id="backdrop">
-              <div class="backdrop-cross-container align-self-start">
-                    <i class="cross fas fa-times" id="close" onclick="this.parentNode.parentNode.parentNode.removeChild(this.parentNode.parentNode); return false;"></i>
+				  <div class="backdrop vh-100" id="backdrop">
+              <div class="row">
+                <div class="offset-11 col-md-1">
+                  <a class="cross fas fa-times" id="close" ></a>
+                </div>                   
               </div>
+              <div class="row mx-auto my-auto justify-content-center h-90" style="height: 90%;">
+                <div class="col-md-12 mx-auto my-auto text-center"><img class="mx-auto my-auto" src="" id="displayImg"></div>
+              </div>
+              
           </div>
 			
 
@@ -141,7 +146,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- slider.js --> 
 	<!--	<script src="assets/js/slider.js"></script> -->
-    <script src="assets/js/img2.js"></script>
+    <script src="assets/js/displayImg.js"></script>
 	
 	</body>
 </html>
