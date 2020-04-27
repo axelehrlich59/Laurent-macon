@@ -50,8 +50,17 @@
 .fas {
   font-size: 45px;
   color: black;
+<<<<<<< HEAD
   cursor: pointer;
   float: left; }
+=======
+<<<<<<< HEAD
+  cursor: pointer; }
+=======
+  cursor: pointer;
+  float: left; }
+>>>>>>> 60742a171db636f184a0f48c4021eb96d7ca07c9
+>>>>>>> 542ccfbe374a786d0985ee815ad7401314cf4920
 
 .main_div--home-top-page {
   background-image: url("https://storage.needpix.com/rsynced_images/plywood-background.jpg");
