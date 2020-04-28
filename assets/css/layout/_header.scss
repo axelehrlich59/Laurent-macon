@@ -4,10 +4,10 @@
 //header with nav for all page
 .header{
 	//default	
-	background-color: $black-anthra;
 	//text-decoration: none;
 	@include xs{
 		.header_nav{
+			background-color: $black-anthra;
 			overflow: auto;
 		}
 		.header_nav_img{
@@ -19,15 +19,9 @@
 			a{
 				color : $white-cream;
 				text-decoration: none;
-				&::before {
+				&::before,
+				&::after {
 				  
-					content: '';
-					width: 0;
-					height: 3px;
-					bottom: 0;
-					left: 0;
-					background: $orange-terracotta;
-					position: absolute;
 					transition: all 400ms;
 					-webkit-transition: all 400ms;
 				}

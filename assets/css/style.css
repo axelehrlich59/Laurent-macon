@@ -1,50 +1,42 @@
-.header {
-  background-color: #10131c; }
-  @media (min-width: 0px) {
+@media (min-width: 0px) {
+  .header .header_nav {
+    background-color: #10131c;
+    overflow: auto; }
+  .header .header_nav_img {
+    width: 15%;
+    height: auto;
+    margin: auto; }
+  .header .header_nav_div_ul {
+    text-align: center;
+    display: flex;
+    height: 50vh;
+    justify-content: space-around;
+    margin: 30px; }
+    .header .header_nav_div_ul a {
+      color: #dfe6eb;
+      text-decoration: none; }
+      .header .header_nav_div_ul a::before, .header .header_nav_div_ul a::after {
+        transition: all 400ms;
+        -webkit-transition: all 400ms; }
+      .header .header_nav_div_ul a:hover::before {
+        width: 100%; } }
+@media (min-width: 768px) {
+  .header .header_nav_img {
+    width: 7%; }
+  .header .header_nav_div_ul {
+    width: 100%;
+    height: auto; } }
+@media (min-width: 992px) {
+  .header {
+    height: 100vh; }
     .header .header_nav {
-      overflow: auto; }
-    .header .header_nav_img {
-      width: 15%;
-      height: auto;
-      margin: auto; }
-    .header .header_nav_div_ul {
-      text-align: center;
-      display: flex;
-      height: 50vh;
-      justify-content: space-around;
-      margin: 30px; }
-      .header .header_nav_div_ul a {
-        color: #dfe6eb;
-        text-decoration: none; }
-        .header .header_nav_div_ul a::before {
-          content: '';
-          width: 0;
-          height: 3px;
-          bottom: 0;
-          left: 0;
-          background: #b14138;
-          position: absolute;
-          transition: all 400ms;
-          -webkit-transition: all 400ms; }
-        .header .header_nav_div_ul a:hover::before {
-          width: 100%; } }
-  @media (min-width: 768px) {
-    .header .header_nav_img {
-      width: 7%; }
-    .header .header_nav_div_ul {
-      width: 100%;
-      height: auto; } }
-  @media (min-width: 992px) {
-    .header {
-      height: 100vh; }
-      .header .header_nav {
-        height: 100vh;
-        position: fixed; }
-        .header .header_nav .header_nav_img {
-          width: 50%; }
-        .header .header_nav .header_nav_div_ul {
-          height: 80%;
-          font-size: 1.3rem; } }
+      height: 100vh;
+      position: fixed; }
+      .header .header_nav .header_nav_img {
+        width: 50%; }
+      .header .header_nav .header_nav_div_ul {
+        height: 80%;
+        font-size: 1.3rem; } }
 
 .main_section_div-row_div-col--coordoner {
   margin-top: 60px; }
