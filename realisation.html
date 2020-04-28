@@ -234,13 +234,17 @@
             </main>
 		
 				  <div class="backdrop vh-100" id="backdrop">
-              <div class="row">
-                <div class="offset-11 col-md-1">
-                  <a class="cross fas fa-times" id="close" ></a>
-                </div>                   
+                <div class="row">
+                    <div class="offset-11 col-md-1">
+                      <a class="cross fas fa-times" id="close" ></a>
+                  </div>                   
               </div>
-              <div class="row mx-auto my-auto justify-content-center h-90" style="height: 90%;">
-                <div class="col-md-12 mx-auto my-auto text-center"><img class="display-img mx-auto my-auto" src="" id="displayImg"></div>
+              <div class="row-display mx-auto my-auto justify-content-center h-90" style="height: 90%;">
+                  <div class="col-md-12 mx-auto my-auto text-center">
+                      <a class="button-slider-display" onclick="plusSlides(-1)">&#10094;</a>
+                      <img class="display-img mx-auto my-auto" src="" id="displayImg">
+                      <a class="button-slider-display" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
               </div>
               
           </div>
@@ -267,6 +271,7 @@
 		<!-- slider.js --> 
 	<!--	<script src="assets/js/slider.js"></script> -->
     <script src="assets/js/displayImg.js"></script>
+    <script src="assets/js/slider-display.js"></script>
 	
 	</body>
 </html>

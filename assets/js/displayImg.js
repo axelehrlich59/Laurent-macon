@@ -16,16 +16,5 @@ $('#close').click(function(e){
 
 
 
-    /*function unDisplay() {
-   var close = document.getElementById("close");
-   var backdrop = document.getElementById("backdrop");
-   if(backdrop.style.display === "flex") {
-    this.parentNode.parentNode.parentNode
-    .removeChild(this.parentNode.parentNode);
-    return false;
-   }
-  };*/
-
-
 
 
