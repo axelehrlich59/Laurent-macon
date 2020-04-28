@@ -46,7 +46,8 @@
 
 .backdrop {
   z-index: 1000;
-  background-color: black;
+  background-color: white;
+  opacity: 0.98;
   transform: translateZ(0px);
   position: fixed;
   top: 0;
@@ -54,5 +55,27 @@
   bottom: 0;
   left: 0;
   display: none; }
+
+.cross {
+  font-size: 45px;
+  color: black;
+  cursor: pointer;
+  float: left; }
+
+.display-img {
+  width: 600px;
+  height: 600px; }
+
+.img-fluid {
+  height: 350px;
+  width: 350px; }
+
+.main_div--home-top-page {
+  background-image: url("https://storage.needpix.com/rsynced_images/plywood-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: #b14138; }
 
 /*# sourceMappingURL=style.css.map */

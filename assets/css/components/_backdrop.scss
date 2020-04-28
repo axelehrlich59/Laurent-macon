@@ -1,6 +1,9 @@
+@import '../abstract/media';
+
 .backdrop {
     z-index: 1000;
-    background-color: black;
+    background-color: white;
+    opacity: 0.98;
     transform: translateZ(0px);
     position: fixed;
     top: 0;
@@ -9,4 +12,18 @@
     left: 0;
     display: none;
 }
+
+.cross {
+    font-size: 45px;
+    color:black;
+    cursor: pointer;
+    float: left;
+}
+
+.display-img {
+    width: 600px;
+    height: 600px;
+}
+
+
 
