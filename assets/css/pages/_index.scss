@@ -1,0 +1,9 @@
+//Header title correction font size responsive mobile 
+@import '../abstract/media';
+
+
+.h3-index-title {
+   @include xs {
+    font-size: 1.50rem;
+   }
+}
