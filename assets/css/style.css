@@ -212,4 +212,13 @@
   font-size: 40px !important;
   margin-bottom: 20px !important; }
 
+.style-button-contact {
+  background-color: white !important;
+  border-color: #10131c;
+  border-width: 2px; }
+
+.a-btn-contact {
+  color: #10131c !important;
+  text-decoration: none !important; }
+
 /*# sourceMappingURL=style.css.map */
