@@ -221,4 +221,20 @@
   color: #10131c !important;
   text-decoration: none !important; }
 
+.contact-button {
+  color: #10131c;
+  background-color: white !important;
+  border-color: #10131c;
+  border-width: 2px; }
+
+.contact-button:hover {
+  opacity: 0.9;
+  color: #10131c; }
+
+.container-presentation--main {
+  height: 600px; }
+
+.container-prestation--main {
+  height: 600px; }
+
 /*# sourceMappingURL=style.css.map */
