@@ -125,6 +125,9 @@
 .img-slider-index {
   width: 85%; }
 
+@media (min-width: 0px) {
+  .h3-title-index {
+    font-size: 1.40rem; } }
 .backdrop {
   z-index: 1000;
   background-color: white;
