@@ -10,7 +10,9 @@
     display: flex;
     height: 50vh;
     justify-content: space-around;
-    margin: 30px; } }
+    margin: 30px; }
+    .header .header_nav_div_ul li a {
+      color: #10131c; } }
 @media (min-width: 768px) {
   .header .header_nav_img {
     width: 7%; }
@@ -158,6 +160,9 @@
   border-radius: 0 3px 3px 0;
   user-select: none; }
 
+body {
+  background-color: #dfe6eb; }
+
 .main_div--home-top-page {
   background-image: url("https://storage.needpix.com/rsynced_images/plywood-background.jpg");
   background-repeat: no-repeat;
@@ -186,5 +191,8 @@
 
 .body {
   color: #10131c; }
+
+.favicon {
+  color: #b14138; }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,4 +1,4 @@
-    
+@import '../abstract/colors';
 .hr-orange {
     border : solid 1px #b14138;
 }  
@@ -36,4 +36,6 @@
     .body {
         color: #10131c;
     }
-
+    .favicon{
+        color : $orange-terracotta;
+    }
