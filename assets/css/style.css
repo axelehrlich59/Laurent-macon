@@ -167,7 +167,9 @@
   color: #b14138; }
 
 .hr-orange {
-  border: solid 1px #b14138; }
+  border-width: 1.2px;
+  border-color: #b14138;
+  border-style: solid; }
 
 .main_div--home-top-page {
   color: #10131c; }
