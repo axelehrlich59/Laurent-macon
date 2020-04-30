@@ -104,8 +104,11 @@
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
-  top: 0; }
+  position: relative;
+  top: 0;
+  color: #10131c;
+  display: flex;
+  justify-content: center; }
 
 /* The dots/bullets/indicators */
 .dot {
@@ -161,6 +164,26 @@
     font-size: 1.6rem;
     margin-left: 15px;
     margin-right: 15px; } }
+@media (max-width: 450px) {
+  .h3-title-index {
+    font-size: 1.45rem; }
+
+  .img-slider-index {
+    width: 250px; }
+
+  .prev {
+    margin-left: 10px;
+    padding: 0; }
+
+  .next {
+    margin-right: 10px;
+    padding: 0; } }
+@media (max-width: 450px) {
+  .h2-title-presentation {
+    font-size: 2.5rem; } }
+@media (max-width: 450px) {
+  .h5-title-paragraph {
+    font-size: 1.4rem; } }
 .backdrop {
   z-index: 1000;
   background-color: white;
@@ -219,6 +242,9 @@ body {
 
 .hr-container {
   width: 50%; }
+
+.h1-title {
+  color: #dfe6eb; }
 
 .main_div--home-top-page {
   text-align: center;

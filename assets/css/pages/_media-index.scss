@@ -19,3 +19,22 @@
       margin-right: 15px;
     }
   }    
+
+  @media (max-width: 450px) {
+    .h3-title-index {
+      font-size: 1.45rem;
+    }
+    .img-slider-index {
+      width: 250px;
+    }
+    .prev {
+      margin-left: 10px;
+      padding: 0;
+    }
+    .next {
+      margin-right: 10px;
+      padding: 0;
+    }
+  
+    
+  }
