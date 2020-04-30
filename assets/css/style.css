@@ -164,7 +164,7 @@
   user-select: none; }
 
 body {
-  background-color: #dfe6eb; }
+  background-color: white; }
 
 .main_div--home-top-page {
   background-image: url("../img/carrelage-final.gif");
@@ -172,6 +172,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
+  padding-top: 30vh;
   color: #b14138; }
 
 #hr-index-title {
@@ -182,8 +183,12 @@ body {
   border-color: #b14138;
   border-style: solid; }
 
+.h1-title {
+  color: #dfe6eb; }
+
 .main_div--home-top-page {
-  color: #10131c;
+  text-align: center;
+  color: #dfe6eb;
   font-family: 'Roboto Slab', serif; }
 
 .div-h3-index {
@@ -210,16 +215,39 @@ body {
 .body {
   color: #10131c; }
 
-<<<<<<< HEAD
 .favicon {
   color: #b14138; }
-=======
+
 .container-argument-confiance--index {
   height: 600px; }
 
 .i-div-logo {
   font-size: 40px !important;
   margin-bottom: 20px !important; }
->>>>>>> master
+
+.style-button-contact {
+  background-color: white !important;
+  border-color: #10131c;
+  border-width: 2px; }
+
+.a-btn-contact {
+  color: #10131c !important;
+  text-decoration: none !important; }
+
+.contact-button {
+  color: #10131c;
+  background-color: white !important;
+  border-color: #10131c;
+  border-width: 2px; }
+
+.contact-button:hover {
+  opacity: 0.9;
+  color: #10131c; }
+
+.container-presentation--main {
+  height: 600px; }
+
+.container-prestation--main {
+  height: 600px; }
 
 /*# sourceMappingURL=style.css.map */

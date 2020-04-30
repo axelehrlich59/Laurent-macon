@@ -1,11 +1,9 @@
-<<<<<<< HEAD:assets/css/themes/_color-font.scss
 @import '../abstract/colors';
-=======
+
 #hr-index-title {
     width: 50%;
 }
 
->>>>>>> master:assets/css/themes/_color-font-family.scss
 .hr-orange {
     border-width: 1.2px;
     border-color: #b14138;
@@ -14,9 +12,12 @@
     
     
     // INDEX PAGE 
-
+.h1-title{
+    color: $white-cream;
+}
 .main_div--home-top-page {
-    color: #10131c;
+    text-align: center;
+    color: $white-cream;
     font-family: 'Roboto Slab', serif;
 }
 .div-h3-index {
