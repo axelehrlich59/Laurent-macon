@@ -20,11 +20,12 @@
 			justify-content: space-around;
 			margin: 30px;
 		}
+	
 	}
 
 	//small screen
 	@include sm{
-
+	
 	}
 	//medium screen
 	@include md{
@@ -35,6 +36,7 @@
 			width : 100%;
 			height : auto;
 		}
+	
 	}
 	//large screen
 	@include lg{
@@ -50,6 +52,7 @@
 				font-size: 1.3rem;
 			}
 		}
+		
 	}
 
 }
