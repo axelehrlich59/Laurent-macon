@@ -1,9 +1,14 @@
+@import '../abstract/colors';
+body{
+    background-color: white;
+}
 .main_div--home-top-page {
     background-image:url("../img/carrelage-final.gif");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
     height: 100vh;
+    padding-top: 30vh;
     color:#b14138;
 }
 

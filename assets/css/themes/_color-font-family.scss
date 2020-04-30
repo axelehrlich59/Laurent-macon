@@ -1,3 +1,5 @@
+@import '../abstract/colors';
+
 #hr-index-title {
     width: 50%;
 }
@@ -13,9 +15,12 @@
 }
     
     // INDEX PAGE 
-
+.h1-title{
+    color: $white-cream;
+}
 .main_div--home-top-page {
-    color: #10131c;
+    text-align: center;
+    color: $white-cream;
     font-family: 'Roboto Slab', serif;
 }
 .div-h3-index {
@@ -56,5 +61,16 @@
 
     .body {
         color: #10131c;
+    }
+    .favicon{
+        color : $orange-terracotta;
+    }
+
+    .a-link-facebook {
+        color: #10131c;
+        text-decoration: none;
+    }
+    .a-link-facebook:hover {
+        color: #10131c!important;
     }
 

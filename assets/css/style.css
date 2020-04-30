@@ -10,13 +10,30 @@
     display: flex;
     height: 50vh;
     justify-content: space-around;
-    margin: 30px; } }
+    margin: 30px; }
+    .header .header_nav_div_ul li {
+      display: inline-block; }
+    .header .header_nav_div_ul li a {
+      color: #10131c;
+      text-decoration: none; } }
 @media (min-width: 768px) {
   .header .header_nav_img {
     width: 7%; }
   .header .header_nav_div_ul {
     width: 100%;
-    height: auto; } }
+    height: auto; }
+  .header .header_nav_div_ul_li_a::after {
+    content: '';
+    width: 0;
+    /*display: ;*/
+    margin: auto;
+    height: 2px;
+    background: #b14138;
+    transition: width .3s;
+    display: flex; }
+  .header .header_nav_div_ul_li_a:hover::after {
+    width: 100%;
+    transition: width .3s; } }
 @media (min-width: 992px) {
   .header {
     height: 100vh; }
@@ -180,12 +197,16 @@
   border-radius: 0 3px 3px 0;
   user-select: none; }
 
+body {
+  background-color: white; }
+
 .main_div--home-top-page {
   background-image: url("../img/carrelage-final.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
+  padding-top: 30vh;
   color: #b14138; }
 
 #hr-index-title {
@@ -200,7 +221,8 @@
   width: 50%; }
 
 .main_div--home-top-page {
-  color: #10131c;
+  text-align: center;
+  color: #dfe6eb;
   font-family: 'Roboto Slab', serif; }
 
 .div-h3-index {
@@ -229,6 +251,16 @@
 
 .body {
   color: #10131c; }
+
+.favicon {
+  color: #b14138; }
+
+.a-link-facebook {
+  color: #10131c;
+  text-decoration: none; }
+
+.a-link-facebook:hover {
+  color: #10131c !important; }
 
 .container-argument-confiance--index {
   height: 600px; }
