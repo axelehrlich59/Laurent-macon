@@ -217,6 +217,9 @@ body {
   border-color: #b14138;
   border-style: solid; }
 
+.hr-container {
+  width: 50%; }
+
 .h1-title {
   color: #dfe6eb; }
 
@@ -254,6 +257,13 @@ body {
 
 .favicon {
   color: #b14138; }
+
+.a-link-facebook {
+  color: #10131c;
+  text-decoration: none; }
+
+.a-link-facebook:hover {
+  color: #10131c !important; }
 
 .container-argument-confiance--index {
   height: 600px; }
