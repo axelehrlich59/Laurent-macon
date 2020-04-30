@@ -29,11 +29,12 @@
 				text-decoration: none;
 			}
 		}
+	
 	}
 
 	//small screen
 	@include sm{
-
+	
 	}
 	//medium screen
 	@include md{
@@ -75,6 +76,7 @@
 			}
 			
 		}
+		
 	}
 
 }
