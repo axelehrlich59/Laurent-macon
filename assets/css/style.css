@@ -124,6 +124,9 @@
     opacity: .4; }
   to {
     opacity: 1; } }
+.img-slider-index {
+  width: 85%; }
+
 .backdrop {
   z-index: 1000;
   background-color: white;
@@ -164,35 +167,59 @@ body {
   background-color: #dfe6eb; }
 
 .main_div--home-top-page {
-  background-image: url("https://storage.needpix.com/rsynced_images/plywood-background.jpg");
+  background-image: url("../img/carrelage-final.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   color: #b14138; }
 
+#hr-index-title {
+  width: 50%; }
+
 .hr-orange {
-  border: solid 1px #b14138; }
+  border-width: 1.2px;
+  border-color: #b14138;
+  border-style: solid; }
 
 .main_div--home-top-page {
-  color: #10131c; }
+  color: #10131c;
+  font-family: 'Roboto Slab', serif; }
 
 .div-h3-index {
-  color: #10131c; }
+  color: #10131c;
+  font-family: 'Roboto Slab', serif; }
 
 .h2-footer-section--index {
-  color: #10131c; }
+  color: #10131c;
+  font-family: 'Roboto Slab', serif; }
 
 .font-weight-light {
-  color: #10131c; }
+  color: #10131c;
+  font-family: 'Roboto Slab', serif; }
 
 .container-h2-p {
   color: #10131c; }
 
+.h2-title-presentation {
+  font-family: 'Roboto Slab', serif; }
+
+.h2-container-footer {
+  font-family: 'Roboto Slab', serif; }
+
 .body {
   color: #10131c; }
 
+<<<<<<< HEAD
 .favicon {
   color: #b14138; }
+=======
+.container-argument-confiance--index {
+  height: 600px; }
+
+.i-div-logo {
+  font-size: 40px !important;
+  margin-bottom: 20px !important; }
+>>>>>>> master
 
 /*# sourceMappingURL=style.css.map */

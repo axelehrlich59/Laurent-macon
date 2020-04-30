@@ -1,0 +1,60 @@
+<<<<<<< HEAD:assets/css/themes/_color-font.scss
+@import '../abstract/colors';
+=======
+#hr-index-title {
+    width: 50%;
+}
+
+>>>>>>> master:assets/css/themes/_color-font-family.scss
+.hr-orange {
+    border-width: 1.2px;
+    border-color: #b14138;
+    border-style: solid;
+}  
+    
+    
+    // INDEX PAGE 
+
+.main_div--home-top-page {
+    color: #10131c;
+    font-family: 'Roboto Slab', serif;
+}
+.div-h3-index {
+    color: #10131c;
+    font-family: 'Roboto Slab', serif;
+}
+.h2-footer-section--index {
+    color: #10131c;
+    font-family: 'Roboto Slab', serif;
+}
+
+    // PRESENTATION PAGE 
+
+.font-weight-light {
+    color: #10131c;
+    font-family: 'Roboto Slab', serif;
+}
+.container-h2-p {
+    color: #10131c;
+}
+.h2-title-presentation {
+    font-family: 'Roboto Slab', serif;
+}
+
+
+    // PRESTATION PAGE 
+
+    .h2-container-footer {
+        font-family: 'Roboto Slab', serif;
+    }
+
+    // REALISATION PAGE 
+
+    // CONTACT PAGE
+
+    .body {
+        color: #10131c;
+    }
+    .favicon{
+        color : $orange-terracotta;
+    }
