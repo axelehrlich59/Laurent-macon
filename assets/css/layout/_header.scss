@@ -1,9 +1,11 @@
 //import media queries
 @import '../abstract/media';
-
+@import '../abstract/colors';
 //header with nav for all page
 .header{
 	//default
+	
+	
 	@include xs{
 		.header_nav{
 			overflow: auto;
@@ -19,8 +21,12 @@
 			height: 50vh;
 			justify-content: space-around;
 			margin: 30px;
+			li{
+				display: inline-block;
+			}
 			li a{
 				color: $black-anthra;
+				text-decoration: none;
 			}
 		}
 	}
@@ -38,6 +44,21 @@
 			width : 100%;
 			height : auto;
 		}
+		.header_nav_div_ul_li_a::after{
+			content: '';
+			width: 0;
+			/*display: ;*/
+			margin:auto;
+			height: 2px;
+			background: $orange-terracotta;
+			transition: width .3s;
+			//position: absolute;
+			display: flex;
+		}
+		.header_nav_div_ul_li_a:hover::after{
+			width: 100%;
+			transition: width .3s;
+		}
 	}
 	//large screen
 	@include lg{
@@ -52,6 +73,7 @@
 				height : 80%;
 				font-size: 1.3rem;
 			}
+			
 		}
 	}
 
