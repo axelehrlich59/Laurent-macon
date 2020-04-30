@@ -196,6 +196,9 @@
   border-color: #b14138;
   border-style: solid; }
 
+.hr-container {
+  width: 50%; }
+
 .main_div--home-top-page {
   color: #10131c;
   font-family: 'Roboto Slab', serif; }
