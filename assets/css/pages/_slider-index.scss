@@ -1,3 +1,4 @@
+@import '../abstract/colors';
 * {box-sizing:border-box}
 
 /* Slideshow container */
@@ -36,7 +37,8 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  color: $white-cream;
+  background-color: $orange-terracotta;
 }
 
 /* Caption text */
@@ -61,6 +63,10 @@
   display: flex;
   justify-content: center;
 }
+.span-numberText--active{
+  letter-spacing: 3px;
+  color: $orange-terracotta;
+}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -75,7 +81,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: $orange-terracotta;
 }
 
 /* Fading animation */

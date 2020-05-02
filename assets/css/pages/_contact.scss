@@ -1,7 +1,14 @@
 //import media queries
 @import '../abstract/media';
-
-
+@import '../abstract/colors';
+.form-control:focus{
+    transition: .5s;
+    border-color : $orange-terracotta;
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.712);
+}
 .main_section_div-row_div-col--coordoner{
     margin-top: 60px;
 

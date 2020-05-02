@@ -46,6 +46,14 @@
         height: 80%;
         font-size: 1.3rem; } }
 
+.form-control:focus {
+  transition: .5s;
+  border-color: #b14138;
+  color: #495057;
+  background-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.712); }
+
 .main_section_div-row_div-col--coordoner {
   margin-top: 60px; }
   @media (min-width: 992px) {
@@ -87,7 +95,8 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8); }
+  color: #dfe6eb;
+  background-color: #b14138; }
 
 /* Caption text */
 .text {
@@ -110,6 +119,10 @@
   display: flex;
   justify-content: center; }
 
+.span-numberText--active {
+  letter-spacing: 3px;
+  color: #b14138; }
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -122,7 +135,7 @@
   transition: background-color 0.6s ease; }
 
 .active, .dot:hover {
-  background-color: #717171; }
+  background-color: #b14138; }
 
 /* Fading animation */
 .fade {
@@ -289,19 +302,27 @@ body {
   color: #10131c !important; }
 
 .container-argument-confiance--index {
-  height: 600px; }
+  height: 400px; }
 
 .i-div-logo {
   font-size: 40px !important;
   margin-bottom: 20px !important; }
 
 .style-button-contact {
+  transition: .5s;
   background-color: white !important;
   border-color: #10131c;
   border-width: 2px; }
 
+.style-button-contact:hover {
+  background-color: #dfe6eb;
+  border-color: #b14138; }
+  .style-button-contact:hover .a-btn-contact {
+    color: #b14138; }
+
 .a-btn-contact {
-  color: #10131c !important;
+  transition: .5s;
+  color: #10131c;
   text-decoration: none !important; }
 
 .contact-button {
@@ -310,12 +331,31 @@ body {
   border-color: #10131c;
   border-width: 2px; }
 
-.contact-button:hover {
-  opacity: 0.9;
-  color: #10131c; }
+.btn:focus {
+  transition: .5s;
+  border-color: #b14138;
+  color: #495057;
+  background-color: #fff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.712); }
 
-.container-presentation--main {
-  height: 600px; }
+.contact-button:hover {
+  background-color: #dfe6eb;
+  border-color: #b14138;
+  color: #b14138; }
+
+.contact-button:active {
+  background-color: #dfe6eb;
+  border-color: #b14138;
+  color: #b14138; }
+
+.contact-button:focus {
+  background-color: #dfe6eb;
+  border-color: #b14138;
+  color: #b14138; }
+
+.section-devis {
+  margin-top: 100px; }
 
 .div-container_div-row_div-col--devis {
   margin-top: 100px; }

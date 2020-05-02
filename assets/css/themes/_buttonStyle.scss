@@ -1,12 +1,23 @@
+@import '../abstract/colors';
 .style-button-contact {
+    transition: .5s;
     background-color: white!important;
     border-color: #10131c;
     border-width: 2px;
+    
+}
+.style-button-contact:hover{
+    background-color: $white-cream;
+    border-color: $orange-terracotta;
+    .a-btn-contact{
+        color: $orange-terracotta;
+
+    }
 }
 
-
 .a-btn-contact {
-    color: #10131c!important;
+    transition: .5s;
+    color: $black-anthra;
     text-decoration: none!important;
 }
 
@@ -17,7 +28,28 @@
     border-width: 2px;
 }
 
-.contact-button:hover {
-    opacity: 0.9;
-    color: #10131c;
+
+.btn:focus{
+    transition: .5s;
+
+    border-color : $orange-terracotta;
+    color: #495057;
+    background-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.712);
 }
+.contact-button:hover {
+    background-color: $white-cream;
+    border-color: $orange-terracotta;
+    color: $orange-terracotta;
+}
+    .contact-button:active{
+        background-color: $white-cream;
+    border-color: $orange-terracotta;
+    color: $orange-terracotta;
+    }
+    .contact-button:focus{
+        background-color: $white-cream;
+    border-color: $orange-terracotta;
+    color: $orange-terracotta;
+    }
