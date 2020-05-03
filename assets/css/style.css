@@ -208,7 +208,8 @@
 
 .img-fluid {
   height: 350px;
-  width: 350px; }
+  width: 350px;
+  cursor: pointer; }
 
 .button-slider-display {
   cursor: pointer;
