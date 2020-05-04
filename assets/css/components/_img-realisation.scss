@@ -3,3 +3,13 @@
     width: 350px;
     cursor: pointer;
 }
+
+@media (max-width: 767px) {
+    .img-fluid {
+    width: 400px;
+    }
+    .col-lg-4 {
+        display: flex;
+        justify-content:center;
+    }
+}
