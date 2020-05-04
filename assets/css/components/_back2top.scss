@@ -1,0 +1,63 @@
+.top-link {
+    transition: all .25s ease-in-out;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: inline-flex;
+      cursor: pointer;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px;
+      margin-bottom: 20px;
+      border-radius: 50%;
+      padding: .25em;
+      width: 60px;
+      height: 60px;
+    background-color: $orange-terracotta;
+    color: $black-anthra;
+    text-decoration: none!important;
+    
+    
+    &.show {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    &.hide {
+      visibility: hidden;
+      opacity: 0;
+    }
+
+  
+      svg {
+          fill: #000;
+          width: 24px;
+          height: 12px;
+      }
+  
+      &:hover {
+        background-color: $orange-terracotta;
+        opacity: 0.9;
+        color: $black-anthra;
+  
+          svg {
+              fill: #000000;
+          }
+      }
+  }
+
+
+ 
+
+  .fa-arrow-up {
+      color: $black-anthra;
+  }
+
+
+
+  @media (max-width: 450px) {
+      .top-link {
+          width: 40px;
+          height: 40px;
+      }
+  }

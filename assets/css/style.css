@@ -221,8 +221,16 @@
 
 .img-fluid {
   height: 350px;
-  width: 350px; }
+  width: 350px;
+  cursor: pointer; }
 
+@media (max-width: 767px) {
+  .img-fluid {
+    width: 400px; }
+
+  .col-lg-4 {
+    display: flex;
+    justify-content: center; } }
 .button-slider-display {
   cursor: pointer;
   width: auto;
@@ -233,6 +241,48 @@
   border-radius: 0 3px 3px 0;
   user-select: none; }
 
+.top-link {
+  transition: all .25s ease-in-out;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: inline-flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  padding: .25em;
+  width: 60px;
+  height: 60px;
+  background-color: #b14138;
+  color: #10131c;
+  text-decoration: none !important; }
+  .top-link.show {
+    visibility: visible;
+    opacity: 1; }
+  .top-link.hide {
+    visibility: hidden;
+    opacity: 0; }
+  .top-link svg {
+    fill: #000;
+    width: 24px;
+    height: 12px; }
+  .top-link:hover {
+    background-color: #b14138;
+    opacity: 0.9;
+    color: #10131c; }
+    .top-link:hover svg {
+      fill: #000000; }
+
+.fa-arrow-up {
+  color: #10131c; }
+
+@media (max-width: 450px) {
+  .top-link {
+    width: 40px;
+    height: 40px; } }
 body {
   background-color: white; }
 
