@@ -39,7 +39,7 @@
 		<div  class="col-lg-9 p-0">
 			<!-- main content of page -->
 			<main>	
-                <section class="container">
+                <section id="realisationGalery" class="container">
                   
                     <h1 class="font-weight-light mt-4 mb-0 text-center">Réalisations</h1>
                   
@@ -242,9 +242,9 @@
               </div>
               <div class="row-display mx-auto my-auto justify-content-center h-90" style="height: 90%;">
                   <div class="col-md-12 mx-auto my-auto text-center">
-                      <a class="button-slider-display" onclick="plusSlides(-1)">&#10094;</a>
+                      <a id="previous" class="button-slider-display" onclick="ChangeSlide(-1)">&#10094;</a>
                       <img class="display-img mx-auto my-auto" src="" id="displayImg">
-                      <a class="button-slider-display" onclick="plusSlides(1)">&#10095;</a>
+                      <a id="next" class="button-slider-display" onclick="ChangeSlide(1)">&#10095;</a>
                   </div>
               </div>
               
@@ -270,9 +270,9 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 		<!-- slider.js --> 
-	<!--	<script src="assets/js/slider.js"></script> -->
-    <script src="assets/js/displayImg.js"></script>
-    <script src="assets/js/slider-display.js"></script>
+<!--	<script src="assets/js/slider.js"></script> -->
+  	  <script src="assets/js/displayImg.js"></script>
+    <script src="assets/js/sliderRealisation.js"></script>
     <script src="assets/js/back2top.js"></script>
 	
 	</body>
