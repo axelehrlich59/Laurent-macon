@@ -13,8 +13,3 @@ $('#close').click(function(e){
     $(".backdrop").hide();
 })
 })
-
-
-
-
-
