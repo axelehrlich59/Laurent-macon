@@ -220,6 +220,10 @@
   width: 350px;
   cursor: pointer; }
 
+.size-img {
+  height: 27em;
+  width: 24em; }
+
 @media (max-width: 767px) {
   .img-fluid {
     width: 400px; }
