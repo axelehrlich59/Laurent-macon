@@ -221,10 +221,14 @@
   width: 350px;
   cursor: pointer; }
 
-.size-img {
-  height: 34em;
-  width: 25em; }
-
+@media (min-width: 0px) {
+  .size-img {
+    height: 25em;
+    width: 14em; } }
+@media (min-width: 768px) {
+  .size-img {
+    height: 25em;
+    width: 20em; } }
 @media (max-width: 767px) {
   .img-fluid {
     width: 400px; }
