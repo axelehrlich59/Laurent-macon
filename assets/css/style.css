@@ -288,6 +288,41 @@
   .top-link {
     width: 40px;
     height: 40px; } }
+#transition div {
+  margin-top: 25px;
+  font-size: 21px;
+  text-align: center;
+  animation: fadein 5s;
+  -moz-animation: fadein  5s;
+  /* Firefox */
+  -webkit-animation: fadein  5s;
+  /* Safari and Chrome */
+  -o-animation: fadein  5s;
+  /* Opera */ }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 body {
   background-color: white; }
 
@@ -296,6 +331,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  transition: background-image 5s;
   height: 100vh;
   padding-top: 30vh;
   color: #b14138; }
