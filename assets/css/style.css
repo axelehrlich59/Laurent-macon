@@ -288,9 +288,106 @@
   .top-link {
     width: 40px;
     height: 40px; } }
-#transition div {
-  margin-top: 25px;
-  font-size: 21px;
+.transition-home {
+  text-align: center;
+  animation: fadein 5s;
+  -moz-animation: fadein  5s;
+  /* Firefox */
+  -webkit-animation: fadein  5s;
+  /* Safari and Chrome */
+  -o-animation: fadein  5s;
+  /* Opera */ }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.transition-title {
+  text-align: center;
+  animation: fadein 3s;
+  -moz-animation: fadein  3s;
+  /* Firefox */
+  -webkit-animation: fadein  3s;
+  /* Safari and Chrome */
+  -o-animation: fadein  3s;
+  /* Opera */ }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.transition-section {
+  text-align: center;
+  animation: fadein 4s;
+  -moz-animation: fadein  4s;
+  /* Firefox */
+  -webkit-animation: fadein  4s;
+  /* Safari and Chrome */
+  -o-animation: fadein  4s;
+  /* Opera */ }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+.transition-devis {
   text-align: center;
   animation: fadein 5s;
   -moz-animation: fadein  5s;
